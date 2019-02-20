@@ -6,11 +6,11 @@ def create_an_array
   best_muscle_cars = ["mustang", "camero", "challenger", "charger"]
 end
 
-def add_element_to_end_of_array(best_muscle_cars, element)
+def add_element_to_end_of_array(best_muscle_cars, "corvette" )
   best_muscle_cars.push("corvette")
 end
 
-def add_element_to_start_of_array(best_muscle_cars, element)
+def add_element_to_start_of_array(best_muscle_cars, "ferrari")
   best_muscle_cars.unshift("ferrari")
 end
 
