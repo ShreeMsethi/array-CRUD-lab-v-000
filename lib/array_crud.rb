@@ -6,8 +6,8 @@ def create_an_array
   best_muscle_cars = ["mustang", "camero", "challenger", "charger"]
 end
 
-def add_element_to_end_of_array(best_muscle_cars, element)
-  best_muscle_cars.push("corvette")
+def add_element_to_end_of_array(best_muscle_cars, car_model)
+  best_muscle_cars.push
 end
 
 def add_element_to_start_of_array(array, element)
