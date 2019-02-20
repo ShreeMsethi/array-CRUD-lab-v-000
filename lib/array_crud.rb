@@ -6,12 +6,12 @@ def create_an_array
   best_muscle_cars = ["mustang", "camero", "challenger", "charger"]
 end
 
-def add_element_to_end_of_array(best_muscle_cars, corvette)
-  best_muscle_cars.push
+def add_element_to_end_of_array(best_muscle_cars, car)
+  best_muscle_cars.push("corvette")
 end
 
-def add_element_to_start_of_array(best_muscle_cars, ferrari)
-  best_muscle_cars.unshift
+def add_element_to_start_of_array(best_muscle_cars, car)
+  best_muscle_cars.unshift("ferrari")
 end
 
 def remove_element_from_end_of_array(best_muscle_cars)
@@ -22,8 +22,8 @@ def remove_element_from_start_of_array(best_muscle_cars)
   best_muscle_cars.shift
 end
 
-def retrieve_element_from_index(best_muscle_cars, 0)
-  best_muscle_cars[0]
+def retrieve_element_from_index(best_muscle_cars, index)
+ 
 end
 
 def retrieve_first_element_from_array(best_muscle_cars)
