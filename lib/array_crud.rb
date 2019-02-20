@@ -7,11 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(best_muscle_cars,corvette)
-  best_muscle_cars.push("corvette")
+  best_muscle_cars.push
 end
 
 def add_element_to_start_of_array(best_muscle_cars,ferrari)
-  best_muscle_cars.unshift("ferrari")
+  best_muscle_cars.unshift
 end
 
 def remove_element_from_end_of_array(best_muscle_cars)
